@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    width: 100%;
+}
+.cover{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    height: 826px;
+    top: 0;
+    opacity: 0.7;
+}
+.position{
+    position: relative;
+}
+.logo{
+    height: 80px;
+    /* position: absolute; */
+}
+.dropdown{
+    color: white;
+    /* position: absolute; */
+}
+.signin{
+    background-color: red;
+    /* position: absolute; */
+}
+.ot{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}

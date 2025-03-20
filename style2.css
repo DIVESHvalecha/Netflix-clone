@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.one{
+    position: relative;
+    /* top: -84px; */
+    /* width: 100vw; */
+    height: 726px;
+    background-image: url(images/netflix\ bg.jpg);
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+}
+.cover{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 726px;
+    background-color: black;
+    opacity: 0.75;
+    color: white;
+}
+
+nav{
+    /* top: 0px;
+    position: relative; */
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.drop{
+    position: relative;
+    z-index: 5;
+    height: 35px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: "Noto Sans JP", serif;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: 400;
+    padding: 0px 8px;
+}
+.sign button{
+    position: relative;
+    z-index: 5;
+    padding: 5px 5px;
+    background-color: red;
+    border: 0px;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Noto Sans JP", serif;
+    font-size: 18px;
+    /* font-weight: 500; */
+    font-weight: 500;
+}
+.logo{
+    position: relative;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.big{
+    position: relative;
+    z-index: 5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    width: 40vw;
+    margin: auto;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bada{
+    font-family: "Noto Sans JP", serif;
+    font-size: 52px;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.medium{
+    font-family: "Noto Sans JP", serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.chota{
+    font-family: "Noto Sans JP", serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.gayab{
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.email{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.mail{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgb(98, 91, 91);
+    border-radius: 4px;
+    height: 45px;
+    width: 400px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.start{
+    font-family: "Noto Sans JP", serif;
+    font-size: 24px;
+    font-weight: 600;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 180px;
+}
+
+.mast{
+    padding: 20px 0px;
+    display: flex;
+    gap: 15px;
+}
+.grad{
+    padding-left: 20px;
+    padding-right: 10px;
+    flex: 1;
+    height: 350px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, #1A2144, #3b1325);
+}
+.two{
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+.two span{
+    color: white;
+    font-family: "Noto Sans JP", serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+.ssvg{
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: 260px;
+    left: 180px;
+}
+.bold{
+    position: relative;
+    top: -40px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Noto Sans JP", serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.light{
+    position: relative;
+    top: -20px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Noto Sans JP", serif;
+    color: #c5c6ce;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.three{
+    width: 80vw;
+    margin: auto;
+    padding: 30px 0px;
+    font-family: "Noto Sans JP", serif;
+    font-size: 24px;
+    color: white;
+}
+
+.three span{
+    color: white;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.faqbox{
+    transition: all 1.5s ease-out;
+    width: 100%;
+    background-color: #2D2D2D;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faqbox:hover{
+    background-color: #555353;
+}
+
+.faqbox svg{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.faq{
+    padding-top: 10px;
+}
+.faq span{
+    font-weight: 400;
+}
+
+.four{
+    padding: 30px 0px;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+.four span{
+    color: white;
+    font-family: "Noto Sans JP", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lastip{
+    padding: 10px 0px;
+}
+.lastip span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer{
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+footer span{
+    color: #B3B3B3;
+    font-family: "Noto Sans JP", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.grid a{
+    color: #B3B3B3;
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 50px 0px;
+}
+
+.aakhri{
+    margin: 30px 0px;
+    color: #B3B3B3;
+    font-family: "Noto Sans JP", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
